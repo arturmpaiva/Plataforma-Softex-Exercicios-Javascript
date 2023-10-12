@@ -13,8 +13,12 @@ console.log(typeof salario);
 salario = new Number(1300);
 console.log(typeof salario);
 
-idade = new String();
+idade = new String("22");
+console.log(typeof idade);
+idade = new String("23");
 console.log(typeof idade);
 
-idade = new String();
-console.log(typeof idade);
+diploma = new Boolean("false");
+console.log(typeof diploma);
+diploma = new Boolean("true");
+console.log(typeof diploma);
